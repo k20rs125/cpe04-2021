@@ -40,7 +40,15 @@
         });
 
         $('#btnD').click(function(e) {
-            btnCClick(e);
+            btnDClick(e);
+        });
+
+        $('#btnE').click(function(e) {
+            btnEClick(e);
+        });
+
+        $('#btnF').click(function(e) {
+            btnFClick(e);
         });
         init();
     });
@@ -166,6 +174,8 @@
         $('#btnB').prop('disabled', false);
         $('#btnC').prop('disabled', false);
         $('#btnD').prop('disabled', false);
+        $('#btnE').prop('disabled', false);
+        $('#btnF').prop('disabled', false);
 
         btnCClick(null);
         
@@ -216,9 +226,23 @@
 
     // ButtonDがクリックされた時の処理
     function btnDClick(e){
-      active = true; 
-        
+      active = true;
+
     }
+
+    // ButtonEがクリックされた時の処理
+    function btnEClick(e){
+      active = true;
+
+    }
+
+    // ButtonFがクリックされた時の処理
+    function btnFClick(e){
+      active = true;
+
+    }
+
+
     
  
     // 繰り返し実行する処理
@@ -254,6 +278,8 @@
     <button id="btnB">Stop</button>  
     <button id="btnC">Set</button> 
     <button id="btnD">Continue</button> 
+    <button id="btnE">information</button>
+    <button id="btnF">5minute</button>
     <input type="number" id="minute" value=0 >
     <input type="number" id="second" value=15 >
 </body>
