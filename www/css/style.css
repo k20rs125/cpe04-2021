@@ -91,17 +91,17 @@ button {
     
     #btnB {
         font-size: 20px;
-        position:absolute; top:380px; left:25%; width:25%; height:60px; 
+        position:absolute; top:380px; left:25%; width:20%; height:60px; 
     }
 
     #btnC {
         font-size: 20px;
-        position:absolute; top:380px; left:50%; width:25%; height:60px; 
+        position:absolute; top:380px; left:45%; width:20%; height:60px; 
     }
 
     #btnD {
         font-size: 20px;
-        position:absolute; top:380px; left:75%; width:23%; height:60px; 
+        position:absolute; top:380px; left:65%; width:33%; height:60px; 
     }
     
     #minute {
