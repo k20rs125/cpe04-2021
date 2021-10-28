@@ -11,26 +11,26 @@ button {
 }
 
 #btnA {
-  background-color: yellow;
-  color: green;
+  background-color: lightpink;
+  color: purple;
   font-weight: bold;
 }
 
 #btnB {
-  background-color: yellow;
-  color: green;
+  background-color: orange;
+  color: purple;
   font-weight: bold;
 }
 
 #btnC {
-  background-color: yellow;
-  color: green;
+  background-color: lightcoral;
+  color: purple;
   font-weight: bold;
 }
 
 #btnD {
-  background-color: yellow;
-  color: green;
+  background-color: lightblue;
+  color: purple;
   font-weight: bold;
 }
 
