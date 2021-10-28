@@ -243,7 +243,12 @@
 
     // ButtonFがクリックされた時の処理
     function btnFClick(e){
-      active = true;
+      active = false;
+        period = 60*parseInt( 5 ) + parseInt( 0 );
+        $("#time").html("経過時間: 0");
+        $("#remain").html("残り時間: " + period);
+
+        $('#btnA').prop('disabled', false);
 
     }
 

@@ -34,6 +34,24 @@ button {
   font-weight: bold;
 }
 
+#btnE {
+  background-color: lightcyan;
+  color: purple;
+  font-weight: bold;
+}
+
+#btnF {
+  background-color: lightgoldenrodyellow;
+  color: purple;
+  font-weight: bold;
+}
+
+#btnG {
+  background-color: lightseagreen;
+  color: purple;
+  font-weight: bold;
+}
+
 #time {
   box-shadow: 5px 5px 5px; 
   width: 50%; 
